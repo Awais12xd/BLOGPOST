@@ -28,45 +28,40 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: (
-          <AuthLayout authentication>
+         
             <Logen />
-           </AuthLayout>
+          
         ),
       },
       {
         path: "/signup",
         element: (
           
-          <AuthLayout authentication>
             <Segnup />
-           </AuthLayout>
         ),
       },
       {
         path: "/all-posts",
         element: (
-          <AuthLayout authentication>
-            {" "}
+           
             <AllPosts />
-          </AuthLayout>
+         
         ),
       },
       {
         path: "/add-post",
         element: (
-          <AuthLayout authentication>
-            {" "}
+          
             <AddPost />
-          </AuthLayout>
+         
         ),
       },
       {
         path: "/edit-post/:slug",
         element: (
-          <AuthLayout authentication>
-            {" "}
+        
             <EditPost />
-          </AuthLayout>
+        
         ),
       },
       {
